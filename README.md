@@ -9,4 +9,4 @@ It mainly focus on:
 4. **How to implement DI manually?**
 5. **How to implement DI automatically?**
 
-Goto [Wiki](https://github.com/hungdoan2/HowItWorkDotNetDependencyInjection/wiki) for detail infomation.
+
