@@ -23,6 +23,7 @@ namespace HiwDI.Samples.CLI
 
             return userService.GetDisplayName(2);
         }
+
         static void Main(string[] args)
         {
             // Dependency Injection Manually
