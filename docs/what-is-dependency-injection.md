@@ -1,4 +1,4 @@
-#The introduction
+#What is dependency injection (DI)
 **Dependency injection** is a software design pattern that implements inversion of control for resolving dependencies.
 
 **Dependency**: Is an object that you can use. 
