@@ -46,11 +46,17 @@ namespace HiwDI.Core
         /// </summary>
         /// <param name="from">The Principal class</param>
         /// <returns></returns>
-        private object Inject(Type from)
+        public object Inject(Type from)
         {
 
             // Get destination type
-            var toType = _bindingRecords.First(p => p.Key == from).Value;
+            Type toType;
+
+            if(!_bindingRecords.TryGetValue(from, out toType))
+            {
+                return Activator.CreateInstance(from, null);
+            }
+            
 
             // Get constructor of destination type.
             // If there is multiple `constructor`, we get the first one.
