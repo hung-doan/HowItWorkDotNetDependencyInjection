@@ -42,3 +42,10 @@ public static void main(){
   var userService = new UserService();
 }
 ```
+
+
+There are three main styles of dependency injection:
+* Constructor Injection
+* Setter Injection
+* Interface Injection
+
