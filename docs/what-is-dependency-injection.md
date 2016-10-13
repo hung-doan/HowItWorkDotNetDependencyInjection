@@ -9,7 +9,7 @@
 
 
 ---
-In following code: `UserRepo` is a `Dependency` and We are create an instance of this `Dependency` `UserRepo` manually.
+In following code: `UserRepo` is a `Dependency` and We create an instance of this `Dependency` `UserRepo` manually.
 => This is not follow `Dependency Injection` pattern
 
 ```C#
@@ -27,7 +27,7 @@ public static void main(){
 
 ---
 
-In following code: `UserRepo` is a `Dependency` and We are create an instance of this `Dependency` by passing `UserRepo` instance to `UserService constructor`
+In following code: `UserRepo` is a `Dependency` and We create an instance of this `Dependency` by passing `UserRepo` instance to `UserService constructor`
 => We passing the object to the client (UserService), so this code follow `Dependency Injection` pattern
 
 ```C#
