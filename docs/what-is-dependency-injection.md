@@ -82,13 +82,13 @@ So, there is a small side effect of `Dependency injection` is make your code mor
 
 
 
-**Then, DJ come into play to save your life:**
+**Then, DI come into play to save your life:**
 
 **Boss:** Change `LogService` to  `MorePowerfulLogService`, you have one second!
 
-**Me:** Hey DJ, My boss don't like the old LogService, please switch to MorePowerfulLogService. We have one second
+**Me:** Hey DI, My boss don't like the old LogService, please switch to MorePowerfulLogService. We have one second
 
-**DJ:** The challenge accepted. It's done, one second as expected. 
+**DI:** The challenge accepted. It's done, one second as expected. 
 
 `HAPPY ENDING`
 
@@ -100,9 +100,9 @@ So, there is a small side effect of `Dependency injection` is make your code mor
 
 
 
-### But I think the most important benefit of DJ is `Testable`.
+### But I think the most important benefit of DI is `Testable`.
 
-DJ will help you test your app much more easier.  
+DI will help you test your app much more easier.  
 
 
 ## There are three main styles of dependency injection:
